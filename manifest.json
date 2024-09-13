@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Product Describer",
+    "version": "1.0",
+    "description": "Scrapes meta description from shopping sites.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
