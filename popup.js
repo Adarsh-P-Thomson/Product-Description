@@ -67,6 +67,7 @@
   
     sections.forEach(section => {
       const value = response[section.key] || "No data available";
+      if(value!=="null")
       htmlOutput += `
         <div class="section">
           <h2>${section.name}</h2>  
