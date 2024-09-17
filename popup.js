@@ -49,20 +49,20 @@
     let htmlOutput = "";
   
     const sections = [
-      { code: "001", name: "Product Name", key: "name " },  // Ensure space in 'name ' matches the key exactly
-      { code: "002", name: "Brand", key: "brand" },
-      { code: "003", name: "Description", key: "description" },
-      { code: "004", name: "Ingredients", key: "ingredients" },
-      { code: "005", name: "Nutritional Information", key: "nutritional information" },
-      { code: "006", name: "Vitamins and Minerals", key: "vitamins and minerals" },
-      { code: "007", name: "Health Considerations", key: "health considerations" },
-      { code: "008", name: "Tips for Healthier Consumption", key: "tips for healthier consumption" },
-      { code: "009", name: "Calories", key: "calories" },
-      { code: "010", name: "Veg or Non-Veg", key: "veg or non veg" },
-      { code: "011", name: "Allergens", key: "allergens" },
-      { code: "012", name: "Processed Levels", key: "processed levels" },
-      { code: "013", name: "Brand Claims Validation", key: "brand claims validation" },
-      { code: "014", name: "Dish or Not", key: "dish or no" }
+      {  name: "Product Name", key: "name " },  // Ensure space in 'name ' matches the key exactly
+      { name: "Brand", key: "brand" },
+      {  name: "Description", key: "description" },
+      {  name: "Ingredients", key: "ingredients" },
+      {  name: "Nutritional Information", key: "nutritional information" },
+      {  name: "Vitamins and Minerals", key: "vitamins and minerals" },
+      {  name: "Health Considerations", key: "health considerations" },
+      {  name: "Tips for Healthier Consumption", key: "tips for healthier consumption" },
+      {  name: "Calories", key: "calories" },
+      {  name: "Veg or Non-Veg", key: "veg or non veg" },
+      {  name: "Allergens", key: "allergens" },
+      {  name: "Processed Levels", key: "processed levels" },
+      {  name: "Brand Claims Validation", key: "brand claims validation" },
+      {  name: "Dish or Not", key: "dish or no" }
     ];
   
     sections.forEach(section => {
