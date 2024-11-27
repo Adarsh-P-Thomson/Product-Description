@@ -69,7 +69,7 @@ const generationConfig = {
   },
 };
 const systemInstruction = "You are an expert in food and on all things edible, about their health and what things they are made of in terms of how they affect a disease or what nutrients they have.\nIf link shared and details are food or edible only answer otherwise return all fields as null."; 
-const API_KEY = 'AIzaSyAHnuMRk6i-_I37M7KkDrDVgqcf94JHpLg'; 
+const API_KEY = process.env.API_KEY || '';
 const aiurl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
