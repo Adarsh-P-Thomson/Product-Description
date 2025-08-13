@@ -84,15 +84,6 @@ Product-Description/
 
 ---
 
-## 🔮 Future Enhancements
-
-* Support for more e-commerce platforms (e.g., eBay, Myntra).
-* Inline product summaries directly on the page without popup.
-* Multi-language support for global users.
-* Option to compare products instantly.
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome!
@@ -102,16 +93,3 @@ Contributions are welcome!
 3. Commit your changes.
 4. Push to the branch.
 5. Create a Pull Request.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-```
-
-If you want, I can **add code snippets and real screenshots** from your repo so the README looks professional and visually appealing. That would make it stand out on GitHub.
-```
